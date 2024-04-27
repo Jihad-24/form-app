@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navlink {
+    padding: 2px 8px;
+    border-bottom: 2px solid transparent;  
+    border-radius: 5px;
+    width: max-content;
+}
+.active .navlink {
+    border-bottom: 2px solid #fe3938;
+}
+
+.inputStyle {
+    background: black  !important;
+}
