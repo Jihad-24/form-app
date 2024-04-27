@@ -57,7 +57,7 @@ const CreatedForm = () => {
     }
     const handleCopy = async (id) => {
         try {
-            await navigator.clipboard.writeText(`https://formify-99f7d.web.app/fillUpForm/${id}`);
+            await navigator.clipboard.writeText(`https://form-app-iota.vercel.app/fillUpForm/${id}`);
             toast.success('Shared Form link copied successfully!!', {
                 icon: '✌️',
             })
