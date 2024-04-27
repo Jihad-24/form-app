@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 // import React from 'react';
 
@@ -57,12 +56,11 @@ const CreatedForm = () => {
     }
     const handleCopy = async (id) => {
         try {
-            await navigator.clipboard.writeText(`https://form-app-iota.vercel.app/fillUpForm/${id}`);
+            await navigator.clipboard.writeText(`https://formify-99f7d.web.app/fillUpForm/${id}`);
             toast.success('Shared Form link copied successfully!!', {
                 icon: '✌️',
             })
         } catch (err) {
-            console.log(err);
         }
     };
     const handleCreateForm = async () => {
